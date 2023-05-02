@@ -1,0 +1,10 @@
+1; Italiano;
+2; Storia;
+3; Matematica;
+4; Religione;
+5; Informatica;
+6; Tpsit;
+7; Educazione Fisica;
+8; Sistemi e Reti;
+9; Inglese;
+10; Telecomunicazione;

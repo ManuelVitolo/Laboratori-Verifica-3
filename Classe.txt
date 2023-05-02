@@ -1,0 +1,7 @@
+1; 4C, Iti; 
+2; 5b; Iti;
+3; 2c; Iti;
+4; 3b; Iti;
+5; 4a; Iti;
+6; 1g; Ipseoa;
+7; 2g; Ipseoa;

@@ -1,0 +1,10 @@
+1; Agosto; Mario; 12345678; AGoMario;
+2; Memoli; Christian; 24681012; Crilin123;
+3; Di Motta; Mariagrazia; 79688564; Mariaaa123;
+4; Fasulo; Simone Manlio; 17376316; UfasulMan;
+5; Coccaro; Felicia; 17623753; Felicidad;
+6; Cavallo; Mariateresa; 09377123; Horses34;
+7; Orlando; Maria; 56473982; GesuConNoi;
+8; Contaldi; Gaetano; 09290828; NordSudOvestEst;
+9; Caruccio; Giovanna; 98982374; 255.255.198.1;
+10; Rarità; Luigi; 12385465; ANDoRnOT;
