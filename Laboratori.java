@@ -4,10 +4,10 @@ public class Laboratori{
         getLista(lista);
         setLista(lista);
     }
-     public void getLista(){
+     public Laboratorio [] getLista(){
         return lista;}
     
-    public Laboratorio [] setLista(lista){
+    public void setLista(lista){
         this.lista=lista;}
     
     public void aggLab(){
