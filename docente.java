@@ -13,7 +13,7 @@ public class Docente{
     setNome(p.getNome());
     setCognome(p.getCognome());
     setUsername(p.getUsername());
- setUsername(p.getUsername());
+ setPassword(p.getPassword());
      }
      public void setUsername(string username){
          this.username=username;
