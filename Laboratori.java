@@ -1,7 +1,6 @@
 public class Laboratori{
     private Laboratorio [] lista;
     public Laboratori(Laboratorio [] lista){
-        getLista(lista);
         setLista(lista);
     }
      public Laboratorio [] getLista(){
