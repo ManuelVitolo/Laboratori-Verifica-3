@@ -1,6 +1,6 @@
 public class Laboratori {
     private Laboratorio [] lista;
-    private final int i=0;
+    private int i=0;
     public Laboratori(){
        lista=new Laboratorio[100];
     }
