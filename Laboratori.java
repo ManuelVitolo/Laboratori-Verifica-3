@@ -1,4 +1,4 @@
-public class Laboratori{
+public class Laboratori {
     private Laboratorio [] lista;
     public Laboratori(Laboratorio [] lista){
         setLista(lista);
@@ -6,11 +6,11 @@ public class Laboratori{
      public Laboratorio [] getLista(){
         return lista;}
     
-    public void setLista(lista){
-        this.lista=lista;}
+     private void setLista(Laboratorio[] lista) {
+        this.lista=lista;
+    }
     
     public void aggLab(){
-        lista l1=new lista();
+        Laboratorio l1=new Laboratorio();
     }
-  
 }
