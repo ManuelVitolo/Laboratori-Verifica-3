@@ -1,16 +1,14 @@
 public class Laboratori {
     private Laboratorio [] lista;
-    public Laboratori(Laboratorio [] lista){
-        setLista(lista);
+    private final int i=0;
+    public Laboratori(){
+       lista=new Laboratorio[100];
     }
      public Laboratorio [] getLista(){
-        return lista;}
-    
-     private void setLista(Laboratorio[] lista) {
+        return lista;
+     }
+     public void setLista(Laboratorio[] lista){
         this.lista=lista;
     }
-    
-    public void aggLab(){
-        Laboratorio l1=new Laboratorio();
-    }
 }
+
