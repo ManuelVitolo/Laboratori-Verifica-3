@@ -1,8 +1,8 @@
 public class Docente{
-     private string nome;
-     private string cognome;
-     private string username;
-     private string password;
+     private String nome;
+     private String cognome;
+     private String username;
+     private String password;
      public Docente(String nome, String cognome, String username, String password){
     setNome(nome);
     setCognome(cognome);
@@ -13,7 +13,7 @@ public class Docente{
     setNome(p.getNome());
     setCognome(p.getCognome());
     setUsername(p.getUsername());
- setUsername(p.getUsername());
+ setPassword(p.getPassword());
      }
      public void setUsername(string username){
          this.username=username;
