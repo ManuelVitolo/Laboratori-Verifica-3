@@ -8,15 +8,26 @@
  *
  * @author Alunno
  */
-  public class Laboratori {
-    private int piano;
-    private String nome;
+   public class Laboratori {
     private String[] materie;
     private int i;
+    private Laboratorio[] lista;
 
-    public Laboratori(String nome, int piano) {
-        this.piano = piano;
-         this.nome = nome;
+    public Laboratori(String []materie,int i,Laboratorio[] lista) {
+        lista=new Laboratorio [10];
+        
+    }
+    public Laboratorio[] getLista(){
+        return lista;
+    }
+    public void setLista[](Laboratorio[]lista){
+        this.lista=lista;
+    }
+    public Laboratorio getLaboratorio(int i){
+        return lista[i];
+    }
+    public void setLaboratorio(Laboratorio laboratorio,int i){
+        this.lista[i]=laboratorio;
     }
 
     public void setMateria(String[] materia) {
@@ -41,7 +52,6 @@
         return piano;
     }
 }
-
 
   
 
