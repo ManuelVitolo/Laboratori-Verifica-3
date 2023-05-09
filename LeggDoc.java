@@ -17,7 +17,7 @@ public class Verifica {
         String f1 = l[0];
         String f2 = l[1];
         String f3 = l[2]; 
-        Docente f=new Docente(l1,l2,l3);
+        Docente f=new Docente(f1,f2,f3);
         ff.aggDoc(f);
     } 
     } 
