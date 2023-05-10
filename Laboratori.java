@@ -33,6 +33,11 @@
     public void setMateria(String[] materia) {
         this.materie = materia;
     }
+      
+        public void aggLab(Laboratorio laboratorio){
+        this.lista[i]=laboratorio;
+        i++;
+    }  
 
     public void Materia(String materia) {
         String[] aggiungiMaterie = new String[materie.length + 1];
