@@ -1,4 +1,4 @@
-public class Associazione{
+public class Associazione{(da modificare)
     private int anno;
     private String sezione;
     private String indirizzo;
