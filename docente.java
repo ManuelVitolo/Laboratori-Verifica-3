@@ -6,16 +6,11 @@ public class Docente{
      public Docente(String nome, String cognome, String username, String password){
     setNome(nome);
     setCognome(cognome);
-   setUsername(username);
+    setUsername(username);
     setPassword(password);
      }
-     public Docente(Docente p){
-    setNome(p.getNome());
-    setCognome(p.getCognome());
-    setUsername(p.getUsername());
- setPassword(p.getPassword());
-     }
-     public void setUsername(string username){
+     
+     public void setUsername(String username){
          this.username=username;
      }
      
@@ -27,15 +22,15 @@ public class Docente{
          this.cognome=cognome;
      }
      
-         public void getUsername(string username){
+         public String getUsername(String username){
         return  username;
      }
      
-      public void getNome(String nome){
+      public String getNome(String nome){
          return   nome;
      }
      
-      public void getCognome(String cognome){
+      public String getCognome(String cognome){
          return cognome;
      }
 
@@ -43,9 +38,10 @@ public class Docente{
          this.password=password;
      }
      
-         public void getPassword(string password){
+         public String getPassword(String password){
         return  password;
      }
 
 
 }
+
