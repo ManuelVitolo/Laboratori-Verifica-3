@@ -18,4 +18,8 @@ public class Prenotazioni{
     public void setPrenotazione(Prenotazione prenotazione, int i){
         this.array[i]=prenotazione;
     }
+    public void aggPre(Prenotazione prenotazione){
+    this.array[i]=prenotazione;
+        i++;
+    }
 }
