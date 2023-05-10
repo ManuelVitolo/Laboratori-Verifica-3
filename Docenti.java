@@ -9,10 +9,15 @@ public class Docenti {
      }
      public void setLista(Docente[] lista){
         this.lista=lista;
-       
-       public void aggDoc(Docente docente{
-         this.listaè[i]=docente;
-         i++
+     }
+       public void aggDoc(Docente docente){
+         this.lista[i]=docente;
+         i++;
        }
+       public Docente getDocente (int i){
+       return lista[i];
+    }
+    public void setPrenotazione(Docente docente, int i){
+        this.lista[i]=docente;
     }
 }
