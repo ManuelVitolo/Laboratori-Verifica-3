@@ -1,6 +1,6 @@
 Karim classe classe, classi e associazioni
 Main che al caricamento carica tutti i dati presenti nei file
-Fare login con controllo e diure chi sono
+Fare login con controllo e dire chi sono
 premi 1 per prenotare
 premi 2 per vedere prenotazioni già fatte da me
 premi 3 per inserire una data e vedere le prenotazioni fatte dagli altri di quel giorno
