@@ -10,19 +10,19 @@ package classi;
  */
 public class Classi {
 
-    private Classe [] lista;
+    private Classe [] elenco;
     private int i=0;
     public Classi(){
-       lista=new Classe[100];
+       elenco=new Classe[100];
     }
-     public Classe [] getLista(){
-        return lista;
+     public Classe [] getelenco(){
+        return elenco;
      }
-     public void setLista(Classe[] lista){
-        this.lista=lista;
+     public void setElenco(Classe[] elenco){
+        this.elenco=elenco;
     }
-    public void aggLab(Classe classe){
-        this.lista[i]=Classe;
+    public void aggClas(Classe classe){
+        this.elenco[i]=Classe;
         i++;
     }    
     
