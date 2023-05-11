@@ -22,7 +22,7 @@ public class Classi {
         this.elenco=elenco;
     }
     public void aggClas(Classe classe){
-        this.elenco[i]=Classe;
+        this.elenco[i]=classe;
         i++;
     }    
     
