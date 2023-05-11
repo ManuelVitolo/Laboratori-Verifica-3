@@ -15,7 +15,7 @@ public class Classi {
     public Classi(){
        elenco=new Classe[100];
     }
-     public Classe [] getelenco(){
+     public Classe [] getElenco(){
         return elenco;
      }
      public void setElenco(Classe[] elenco){
