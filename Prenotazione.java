@@ -1,51 +1,21 @@
 import java.time.LocalDateTime;  
 import java.time.format.DateTimeFormatter; 
+
 public class Prenotazione{
-	private int giorno;
-	private int mese;
-	private int anno;
-	private int ora;
-	private int min;
+    private LocalDateTime data;
 
 
-	public Prenotazione(int giorno,int mese, int anno, int ora, int min){
-		setGiorno(giorno);
-		setMese(mese);
-		setAnno(anno);
-		setOra(ora);
-		setMin(min);
+	public Prenotazione( int giorno,int mese, int anno, int ora, int min){
+            setData(giorno, mese, anno, ora, min);
+           
 	}
-	public int getGiorno(){
-		return giorno;
+        public LocalDateTime getData(){
+	return data;
 	}
-	public void setGiorno(int giorno){
-		this.giorno=giorno;
+	public void setData(int giorno,int mese, int anno, int ora, int min){
+	this.data=LocalDateTime.of(anno, mese, giorno , ora, min);  ;
 	}
-	public int getMese(){
-		return mese;
-	}
-	public void setMese(int mese){
-		this.mese=mese;
-	}
-	public float getAnno(){
-		return anno;
-	}
-	public void setAnno(int anno){
-		this.anno=anno;
-	}
-	public int getOra(){
-		return ora;
-	}
-	public void setOra(int ora){
-    this.ora=ora;
-	}
-	public int getMin(){
-		return ora;
-	}
-	public void setMin(int min){
-    this.min=min;
-	}
-	
+
 	public void formatta(){
 		LocalDateTime datetime1 = LocalDateTime.of(anno, mese, giorno , ora, min);  
 		  LocalDateTime datetime2 = datetime1.minusDays(100);  
