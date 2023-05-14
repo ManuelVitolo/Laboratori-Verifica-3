@@ -23,4 +23,10 @@ public class Prenotazioni{
     this.array[i]=prenotazione;
         i++;
     }
+    public void stampaPre(){
+    	System.out.println("Tutte le prenotazioni fatte");
+    	for(i=0; i<10; i++) {
+    		System.out.println("Prenotazione"+" "+getArray());
+    	}
+    }
 }
