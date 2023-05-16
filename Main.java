@@ -8,7 +8,7 @@ public class Main {
         Prenotazioni p=new Prenotazioni();
         int scelta;
         do{
-            System.out.println("Premi 0 per uscire, 1 per creare laboratori, 2 per vedere prenotazioni, 3 per inserire una data e vedere le prenotazioni fatte dagli altri di quel giorno");
+            System.out.println("Premi 0 per uscire, 1 per creare laboratori, 2 per vedere prenotazioni del docente, 3 per inserire una data e vedere le prenotazioni fatte dagli altri di quel giorno");
             scelta=sc.nextInt();
             if(scelta==1){
                 
