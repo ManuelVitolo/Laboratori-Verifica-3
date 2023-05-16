@@ -2,7 +2,7 @@ public class Prenotazioni{
 	private Prenotazione[] array;
 	private int i=0;
 	
-	public Prenotazioni(Prenotazione[] array){
+	public Prenotazioni(){
 		array=new Prenotazione[10];
 	}
 	
@@ -24,9 +24,10 @@ public class Prenotazioni{
         i++;
     }
     public void stampaPre(){
-    	System.out.println("Tutte le prenotazioni fatte");
+    	System.out.println("Tutte le prenotazioni fatte dai docenti");
     	for(i=0; i<10; i++) {
     		System.out.println("Prenotazione"+" "+getArray());
     	}
     }
 }
+
