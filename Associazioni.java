@@ -22,7 +22,7 @@ public class Associazioni {
         this.associ=associ;
     }
     public void aggAs(Associazione associazione){
-        this.associ[i]=Associazione;
+        this.associ[i]=associazione;
         i++;
     }    
     
