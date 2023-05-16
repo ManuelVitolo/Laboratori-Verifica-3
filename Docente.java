@@ -22,23 +22,23 @@ public class Docente{
          this.cognome=cognome;
      }
      
-         public String getUsername(String username){
+         public String getUsername(){
         return  username;
      }
      
-      public String getNome(String nome){
+      public String getNome(){
          return   nome;
      }
      
-      public String getCognome(String cognome){
+      public String getCognome(){
          return cognome;
      }
 
-     public void setPassword(String password){
+     public void setPassword(String Password){
          this.password=password;
      }
      
-         public String getPassword(String password){
+         public String getPassword(){
         return  password;
      }
 
